@@ -1,18 +1,30 @@
-# README title
-This is a brief description of what the software does.
+# Find My Bike
+This is a simple web application that uses the bikeindex API and google maps API which allows a user to input a city and find all the stolen bikes for that area. The user is able to click on a bike from a list to display more information for that particular bike.
 ### Setup/Installation Requirements
-* list item 1
-* list item 2
-* list item 3
+* You'll need to download this chrome extension for the app to be successful in making API calls - https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+
+* Run these following commands to clone the project, install the dependencies, build project, and launch the server.
+* `git clone https://github.com/jaybones90/bike-index.git`
+* `cd bike-index`
+* `npm install bower -g`
+* `npm install`
+* `bower install`
+* `gulp build`
+* `gulp serve`
 ### Known Bugs
-List known bugs or issues here
+No known bugs
 ### Technologies Used
-* Tech 1
-* Tech 2
-* Tech 3
+* Node.js
+* Javascript
+* npm
+* bower
+* gulp
+* bikeindex API
+* Google Maps API
 ### By Authors
+Jason Ainsworth
 ### Support and contact details
-_contact info here_
+jasoncruze@gmail.com
 ### License
 _MIT_
-Copyright (c) _year_ **Author or Organization**
+Copyright (c) 2017 **Jason Ainsworth**

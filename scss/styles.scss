@@ -20,6 +20,7 @@
 .output {
   margin-top: 8%;
   padding-top: 5%;
+  margin-bottom: 5%;
   width: 70%;
   list-style: none;
   background-color: rgba(150, 150, 150, .8);
@@ -53,6 +54,7 @@ nav {
   margin-top: 25%;
   margin-left: 40%;
   position: fixed;
+  margin-bottom: 100px;
 }
 
 #big-map {
@@ -61,7 +63,7 @@ nav {
 }
 
 #big-map-div {
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 40%;
   position: fixed;
 }

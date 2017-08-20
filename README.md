@@ -1,4 +1,4 @@
-![Demo](http://g.recordit.co/xRWv8rJWWm.gif)
+![Demo](http://recordit.co/xRWv8rJWWm)
 
 # Find My Bike
 This is a simple web application that uses the bikeindex API and google maps API which allows a user to input a city and find all the stolen bikes for that area. The user is able to click on a bike from a list to display more information for that particular bike.

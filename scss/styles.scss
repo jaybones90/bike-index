@@ -1,6 +1,15 @@
 .bike-name {
-  margin-top: 5%;
-  position: fixed;
+  display: none;
+  margin-top: 8%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  padding: 2em;
+  margin-bottom: 5%;
+  width: 70%;
+  list-style: none;
+  background-color: rgba(150, 150, 150, .8);
+  border: 2px solid white;
 }
 
 .search-section {
@@ -8,6 +17,7 @@
   font-family: 'Josefin Sans';
   color: white;
   text-align: center;
+  margin-bottom: 5%;
   button{
     box-shadow: 2px 2px 4px white;
     background-color: rgba(0, 0, 0, .0);
@@ -51,15 +61,13 @@ nav {
 
 
 #map-div {
-  margin-top: 25%;
-  margin-left: 40%;
-  position: fixed;
+  position: relative;
   margin-bottom: 100px;
 }
 
 #big-map {
-  height: 600px;
-  width: 95%;
+  height: 500px;
+  width: 70%;
 }
 
 #big-map-div {

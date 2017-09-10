@@ -13,6 +13,7 @@ var displayAllInfo = function(city, bikes) {
     var bike = new Bike();
     var foundBikeId = $(this).val();
     bike.getBikeInfo(foundBikeId, displayBikeInfo, createMap);
+    $('.bike-name').show();
   });
 };
 

@@ -71,6 +71,7 @@ $(document).ready(function(){
   $('#submit-button').click(function(e){
     e.preventDefault();
     $('#big-map-div').show();
+    $('#map-div, .bike-name').hide();
     $('.output').fadeIn(2000);
     var city = $('#user-location').val();
     bike.getAllBikes(city, displayAllInfo, getIds);
